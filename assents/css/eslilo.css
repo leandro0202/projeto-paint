@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+#tela{
+    border: 3px solid black;
+}
+
+.container{
+    width: 100vw;
+}
+.area-paint{
+    width: 100vw;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.menu{
+
+    border: 3px solid black;
+    border-left: none;
+    background-color: rgb(148, 142, 142);
+}
+.container-menu{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 50px ;
+    gap: 5px 5px;
+    padding: 10px;  
+}
+
+.vermelho{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.azul{
+    width: 50px;
+    height: 50px;
+    background-color: blue; 
+}
+.amarelo{
+    width: 50px;
+    height: 50px;
+    background-color: yellow; 
+}
+.verde{
+    width: 50px;
+    height: 50px;
+    background-color: green; 
+}
+.preta{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.laranja{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+.pink{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(184, 22, 130);
+}
+.roxo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 5, 50);
+}
